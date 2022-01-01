@@ -1,0 +1,60 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.arman.test_webview"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:5:5-80
+12-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:6:5-80
+13-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:6:22-77
+14
+15    <application
+15-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:8:5-24:19
+16        android:allowBackup="true"
+16-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.5.0] C:\Users\Martha\.gradle\caches\transforms-3\e759884e8e1539e68246ec4d8729cc98\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.Test_WebView" >
+24-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:14:9-50
+25        <activity
+25-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:15:9-23:20
+26            android:name="com.arman.parse_NIST_web_database.MainActivity"
+26-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:16:13-74
+27            android:exported="true" >
+27-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:17:13-36
+28            <intent-filter>
+28-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:19:17-69
+29-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:21:17-77
+31-->C:\7_android\parse_NIST_web_database\app\src\main\AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>

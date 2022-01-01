@@ -1,0 +1,9 @@
+com/arman/parse_NIST_web_database/BuildConfig.java
+ com.arman.parse_NIST_web_database.BuildConfig
+com/arman/parse_NIST_web_database/PhantomGenerationFragment.java
+ com.arman.parse_NIST_web_database.PhantomGenerationFragment
+ com.arman.parse_NIST_web_database.PhantomGenerationFragment$1
+ com.arman.parse_NIST_web_database.PhantomGenerationFragment$PhanGenCallbacks
+com/arman/parse_NIST_web_database/MainActivity.java
+ com.arman.parse_NIST_web_database.MainActivity
+ com.arman.parse_NIST_web_database.MainActivity$1
