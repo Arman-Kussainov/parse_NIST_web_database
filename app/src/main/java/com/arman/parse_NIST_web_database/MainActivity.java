@@ -20,12 +20,14 @@ import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
 
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity implements PhantomGenerationFragment.PhanGenCallbacks{
 
+    String url_to_parse="https://physics.nist.gov/PhysRefData/XrayMassCoef/ElemTab/z87.html";
     LineChart MyChart;
     ArrayList<Entry> MyFun =new ArrayList<>();
     ArrayList<LineDataSet> DataSet=new ArrayList<>();
@@ -53,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements PhantomGeneration
 
 
         myWebView.setWebViewClient(new WebViewClient());
-        myWebView.loadUrl("https://physics.nist.gov/PhysRefData/XrayMassCoef/ElemTab/z13.html");
+        myWebView.loadUrl(url_to_parse);
 
         myWebView.getSettings().setUseWideViewPort(true);
         myWebView.getSettings().setLoadWithOverviewMode(true);

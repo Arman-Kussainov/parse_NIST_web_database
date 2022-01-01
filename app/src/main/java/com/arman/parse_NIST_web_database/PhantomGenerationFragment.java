@@ -30,10 +30,12 @@ public class PhantomGenerationFragment extends Fragment {
 
             StringBuilder text = new StringBuilder();
             Matcher DoubleFound;
+            MainActivity MainActivity_access=(MainActivity)getActivity();
 
             URL my_page = null;
+
             try {
-                my_page = new URL("https://physics.nist.gov/PhysRefData/XrayMassCoef/ElemTab/z01.html");
+                my_page = new URL(MainActivity_access.url_to_parse);
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             }

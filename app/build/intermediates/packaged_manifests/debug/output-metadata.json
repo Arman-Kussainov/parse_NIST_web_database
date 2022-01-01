@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.arman.test_webview",
+  "applicationId": "com.arman.parse_NIST_web_database",
   "variantName": "debug",
   "elements": [
     {
